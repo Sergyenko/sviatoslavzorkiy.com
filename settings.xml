@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<viewer>
+<!--  Первый в списке альбом отображается при загрузке страницы. Не отображается в меню -->
+	  <album name="Default" path="pics/_default/">
+		<photo src="01.jpg">Photo 1</photo>
+		<photo src="02.jpg">Photo 1</photo>
+	 </album>
+<!--  Альбомы упорядочены сверху вниз. Самый верхний альбом - самый левый в меню на странице -->
+	<album name="свадьба" path="pics/album1/">
+		<photo src="01.jpg">Photo 3</photo>
+		<photo src="02.jpg">Photo 3</photo>
+	</album>
+	<album name="портрет" path="pics/album2/">
+		<photo src="01.jpg">Photo 1</photo>
+		<photo src="02.jpg">Photo 1</photo>
+	</album>
+	<album name="концерт" path="pics/album3/">
+		<photo src="01.jpg">Photo 1</photo>
+	</album>
+<!--  Параметры слайдшоу (в миллисекундах - 1000 = 1 секунда). Первый - запуск слайдшоу. Второй - интервал слайдшоу. Третий - длительность анимации  -->
+	<slideshow startAfter="3000" slideshowInterval="6000" effectInterval='1500'></slideshow>
+</viewer>
